@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    background-image:url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+.main-container{
+    /* border: 1px solid red; */
+}
+
+.headline{
+    font-size: 156px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+
+.headline-first{
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline{
+    /* border: 1px solid purple; */
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area{
+    text-align: center;
+}
+
+.button-style{
+    background-color: #1ed760;
+    border-radius: 500px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 700;
+}
+
+.button-style:hover{
+    transform: scale(1.1);
+}
+
+.footer-container{
+    border: 1px solid pink;
+    max-width: 1170px;  /* width 고정 */
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+
+
