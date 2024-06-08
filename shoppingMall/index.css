@@ -1,0 +1,49 @@
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover{
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.first-line{
+    border: 1px solid #392d23;
+    border-left: none;
+    border-right: none;
+}
+
+.second-line a{
+    color: white;
+    text-decoration: none;
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line{
+        text-align: center;
+    }
+
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border: 1px solid #392d23;
+        border-left: none;
+        border-right: none;
+    }
+
+    .third-line{
+        display: block;
+    }
+}
+
