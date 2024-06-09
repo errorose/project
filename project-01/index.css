@@ -1,0 +1,140 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover{
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+
+.card-img-top{
+    height: 15rem;
+    object-fit: cover;
+}
+
+footer{
+    bottom: 0;
+    height: 430px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    /* border: 1px solid pink; */
+    max-width: 1170px;  
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.first-box{
+    /* border: 1px solid pink; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-box{
+    /* border: 1px solid pink; */
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.sub-title{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.footer-menu-item{
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.icon-box{
+    /* border: 1px solid pink; */
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 24px;
+    color: white;
+}
+
+.icon:hover{
+    color: chocolate;
+}
+
+.first-line{
+    /* border: 1px solid pink; */
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.second-line{
+    /* border: 1px solid pink; */
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.second-line-item{
+    color: #919496;
+    margin-right: 24px;
+}
+
+.third-box{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .first-box{
+        display: none;
+    }
+
+    .second-box{
+        display: none;
+    }
+
+    .third-box{
+        display: block;
+    }
+}
+
+
